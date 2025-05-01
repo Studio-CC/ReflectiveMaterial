@@ -22,7 +22,10 @@ Clone or download the material and import it into your Three.js project:
 
 ```js
 import { ReflectiveMaterial } from './ReflectiveMaterial.js'
+
 ---
+
+## 🧪 Usage
 
 ```js
 const reflectiveSurfaceMaterial = new ReflectiveMaterial({
@@ -39,24 +42,26 @@ const reflectiveSurfaceMaterial = new ReflectiveMaterial({
   reflectionResolution: 1024         // Power-of-two preferred (e.g. 512, 1024)
 
 }, floorSurface) // Pass in the geometry or mesh to reflect
+```
+
 ---
 
-## 🧩 Parameters
+## 🧹 Parameters
 
-| Property              | Type            | Description                                          |
-|-----------------------|-----------------|------------------------------------------------------|
-| `distortionMap`       | `THREE.Texture` | Normal map that distorts the reflection              |
-| `distortionScale`     | `Number`        | Strength of the distortion effect                    |
-| `reflectionStrength`  | `Number`        | Blend factor of reflection (0 = none, 1 = full)      |
-| `reflectionResolution`| `Number`        | Resolution of internal reflection render target      |
+| Property               | Type            | Description                                          |
+|------------------------|-----------------|------------------------------------------------------|
+| `distortionMap`        | `THREE.Texture` | Normal map that distorts the reflection              |
+| `distortionScale`      | `Number`        | Strength of the distortion effect                    |
+| `reflectionStrength`   | `Number`        | Blend factor of reflection (0 = none, 1 = full)      |
+| `reflectionResolution` | `Number`        | Resolution of internal reflection render target      |
 
 All standard `MeshStandardMaterial` parameters are supported.
 
+---
+
 ## 🧪 Notes
 
-Works best with horizontal or mildly curved surfaces (e.g. floors, ground).
-
-Internally renders the reflected scene using a mirror camera.
-
-Uses a render target and may impact performance on lower-end devices.
+- Works best with horizontal or mildly curved surfaces (e.g. floors, ground).
+- Internally renders the reflected scene using a mirror camera.
+- Uses a render target and may impact performance on lower-end devices.
 
