@@ -22,6 +22,7 @@ Clone or download the material and import it into your Three.js project:
 
 ```js
 import { ReflectiveMaterial } from './ReflectiveMaterial.js'
+---
 
 ```js
 const reflectiveSurfaceMaterial = new ReflectiveMaterial({
@@ -38,7 +39,7 @@ const reflectiveSurfaceMaterial = new ReflectiveMaterial({
   reflectionResolution: 1024         // Power-of-two preferred (e.g. 512, 1024)
 
 }, floorSurface) // Pass in the geometry or mesh to reflect
-
+---
 
 ## 🧩 Parameters
 
