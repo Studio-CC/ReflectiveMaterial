@@ -22,7 +22,7 @@ Clone or download the material and import it into your Three.js project:
 
 ```js
 import { ReflectiveMaterial } from './ReflectiveMaterial.js'
-
+```
 ---
 
 ## 🧪 Usage
