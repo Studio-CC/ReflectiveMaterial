@@ -2,7 +2,7 @@
 
 **A new material for [Three.js](https://threejs.org/) that provides distorted normal map–based reflections**
 
-ReflectiveMaterial is a custom material designed to simulate textured reflections on surfaces like floors or water by distorting reflection data using a normal map. It enhances realism by merging reflection logic with geometry surface detail, producing convincing surface-aware reflections.
+ReflectiveMaterial is a custom material designed to simulate textured reflections on surfaces like floors by distorting reflection data using a normal map. It enhances realism by merging reflection logic with geometry surface detail, producing convincing surface-aware reflections.
 
 [View Live Demo](https://projects.chriscarruthers.co.uk/showroom/)
 ---
